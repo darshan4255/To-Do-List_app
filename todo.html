@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Covered+By+Your+Grace" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>To-DO-LIST</title>
+</head>
+<body>
+    <div class="container">
+		<div class="row">
+			<div class="intro col-12">
+				<h1>Darshan's To-Dos</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="helpText col-12">
+				<p id="first">Enter text into the input field to add items to your list.</p>
+				<p id="second">Click the item to mark it as complete.</p>
+				<p id="third">Click the "X" to remove the item from your list.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<input id="userInput" type="text" placeholder="New item..." maxlength="30">
+				<button id="enter"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+			</div>
+		</div>
+
+		<!-- Empty List -->
+		<div class="row">
+			<div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+				</ul>
+			</div>
+		</div>
+    </div>
+    <div>
+        <footer class="footer">&copy; DARSHAN RAVAL 2021</footer>
+    </div>
+	<script type="text/javascript" src="script_method.js"></script>
+</body>
+</html>
